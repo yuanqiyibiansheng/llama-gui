@@ -1,0 +1,32 @@
+{
+  "bin_dir": "H:\\Qwen\\gui",
+  "port": 5801,
+  "model_dirs": [
+    "H:\\Qwen\\model\\models"
+  ],
+  "engine": {
+    "model_path": "H:\\Qwen\\model\\models\\Ornith-1.5-35B-A3B-MTP-APEX-I-Balanced\\Ornith-1.5-35B-A3B-MTP-APEX-I-Balanced.gguf",
+    "ctx_size": 8192,
+    "threads": 12,
+    "ngl": 30,
+    "batch_size": 512,
+    "ubatch_size": 2048,
+    "parallel": 4,
+    "jinja": true,
+    "kv_unified": false,
+    "flash_attn": "on",
+    "cache_type_k": "Q4_0",
+    "cache_type_v": "Q4_0",
+    "rope_freq_base": 0.0,
+    "rope_freq_scale": 0.0,
+    "mmap": true,
+    "mmproj_auto": true,
+    "seed": "",
+    "spec_mtp": true,
+    "spec_draft_max": 2,
+    "spec_draft_min": 0,
+    "spec_draft_p_split": 0.75,
+    "reasoning": true,
+    "reasoning_effort": "low"
+  }
+}
